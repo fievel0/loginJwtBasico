@@ -11,4 +11,5 @@ Tecnologías: Spring Boot
              JPA
 
              etc....
-             
+
+NOTA: Si deseas utilizarlo debes crear la DB securitydb y agregar la conexión.
