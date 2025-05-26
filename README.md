@@ -6,9 +6,7 @@ Tecnologías: Spring Boot
              
              PostgreSql - MySql
 
-             Lombok
-
-             JPA
+             Lombok, JPA, Intellij, pgAdmin4
 
              etc....
 
