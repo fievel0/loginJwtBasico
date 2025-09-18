@@ -33,7 +33,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
                                     throws ServletException, IOException{
         String path = request.getServletPath();
-        if (path.equals("/auth/login") || path.equals("/auth/register")){
+        if (path.startsWith("/auth/login") || path.startsWith("/auth/register") || path.startsWith("/auth/admin/register")){
             filterChain.doFilter(request, response);
             return;
         }
